@@ -18,14 +18,14 @@ hi! IncSearch      term=reverse cterm=bold ctermfg=16 ctermbg=226
 hi! Search         term=reverse cterm=none ctermfg=15 ctermbg=92
 hi! MoreMsg        term=bold cterm=bold ctermfg=0 ctermbg=220
 hi! ModeMsg        term=bold cterm=bold ctermfg=247 ctermbg=236
-hi! LineNr         term=none cterm=none ctermfg=249 ctermbg=none
-hi! CursorLineNr   term=bold cterm=bold ctermfg=250 ctermbg=none
+hi! LineNr         term=none cterm=none ctermfg=243 ctermbg=none
+hi! CursorLineNr   term=bold cterm=bold ctermfg=15 ctermbg=none
 hi! Question       term=none cterm=none ctermfg=247 ctermbg=236
 hi! StatusLine     term=bold,reverse,reverse cterm=bold ctermfg=15 ctermbg=236
 hi! StatusLineNC   term=reverse cterm=reverse ctermfg=250 ctermbg=236
 hi! VertSplit      term=reverse cterm=reverse ctermfg=234 ctermbg=239
 hi! Title          term=bold cterm=bold ctermfg=15 ctermbg=none
-hi! Visual         term=reverse cterm=none ctermfg=none ctermbg=239
+hi! Visual         term=reverse cterm=none ctermfg=none ctermbg=17
 hi! VisualNOS      term=bold cterm=none ctermfg=none ctermbg=239
 hi! WarningMsg     term=standout cterm=standout ctermfg=15 ctermbg=124
 hi! WildMenu       term=standout cterm=standout ctermfg=234 ctermbg=228
@@ -48,8 +48,6 @@ hi! PmenuThumb     term=none cterm=none ctermfg=245 ctermbg=240
 hi! TabLine        term=none cterm=none ctermfg=8 ctermbg=235
 hi! TabLineSel     term=bold cterm=bold ctermfg=252 ctermbg=234
 hi! TabLineFill    term=reverse cterm=reverse ctermfg=254 ctermbg=235
-hi! CursorColumn   term=reverse cterm=none ctermfg=none ctermbg=238
-hi! CursorLine     term=none cterm=none ctermfg=none ctermbg=236
 hi! ColorColumn    term=none cterm=none ctermfg=none ctermbg=235
 hi! MatchParen     term=none cterm=bold ctermfg=234 ctermbg=220
 hi! Comment        term=bold cterm=bold ctermfg=242 ctermbg=none
@@ -93,7 +91,6 @@ hi! SPM3           term=none cterm=none ctermfg=none ctermbg=none
 hi! SPM4           term=none cterm=none ctermfg=none ctermbg=none
 hi! SPM5           term=none cterm=none ctermfg=none ctermbg=none
 hi! SPM6           term=none cterm=none ctermfg=none ctermbg=none
-hi! Cursor         term=none cterm=none ctermfg=1 ctermbg=0
 hi! Normal         term=none cterm=none ctermfg=253 ctermbg=234
 
 hi! rubySymbold                term=none cterm=none ctermfg=156 ctermbg=none
