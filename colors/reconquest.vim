@@ -20,13 +20,13 @@ hi! MoreMsg        term=bold cterm=bold ctermfg=0 ctermbg=220
 hi! ModeMsg        term=bold cterm=bold ctermfg=247 ctermbg=236
 hi! LineNr         term=none cterm=none ctermfg=243 ctermbg=none
 hi! CursorLineNr   term=bold cterm=bold ctermfg=15 ctermbg=none
+hi! CursorLine     term=reverse cterm=none ctermfg=none ctermbg=17
 hi! Question       term=none cterm=none ctermfg=247 ctermbg=236
 hi! StatusLine     term=bold,reverse,reverse cterm=bold ctermfg=15 ctermbg=236
 hi! StatusLineNC   term=reverse cterm=reverse ctermfg=250 ctermbg=236
 hi! VertSplit      term=reverse cterm=reverse ctermfg=234 ctermbg=239
 hi! Title          term=bold cterm=bold ctermfg=15 ctermbg=none
 hi! Visual         term=reverse cterm=none ctermfg=none ctermbg=17
-hi! VisualNOS      term=bold cterm=none ctermfg=none ctermbg=239
 hi! WarningMsg     term=standout cterm=standout ctermfg=15 ctermbg=124
 hi! WildMenu       term=standout cterm=standout ctermfg=234 ctermbg=228
 hi! Folded         term=standout cterm=standout ctermfg=66 ctermbg=236
@@ -104,3 +104,6 @@ hi! goConditional cterm=bold term=bold ctermfg=215
 hi! goBuiltins    cterm=none term=none ctermfg=215
 hi! goCall        cterm=none term=none ctermfg=101
 hi! goErr         cterm=bold term=bold ctermfg=none ctermbg=none
+
+hi! link uniteCandidateInputKeyword IncSearch
+hi! link uniteInputLine Search
