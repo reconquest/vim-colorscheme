@@ -93,12 +93,6 @@ hi! SPM5           term=none         cterm=none     ctermfg=none ctermbg=none
 hi! SPM6           term=none         cterm=none     ctermfg=none ctermbg=none
 hi! Normal         term=none         cterm=none     ctermfg=253  ctermbg=234
 
-hi! rubySymbold                term=none cterm=none ctermfg=156 ctermbg=none
-hi! rubyStringDelimiter        term=none cterm=bold ctermfg=28  ctermbg=none
-hi! rubyInterpolationDelimiter term=none cterm=bold ctermfg=28  ctermbg=none
-hi! rubyRegexp                 term=none cterm=none ctermfg=215 ctermbg=none
-hi! rubyRegexpDelimiter        term=none cterm=bold ctermfg=215 ctermbg=none
-
 hi! goDeclaration cterm=bold term=bold ctermfg=215
 hi! goConditional cterm=bold term=bold ctermfg=215
 hi! goBuiltins    cterm=none term=none ctermfg=215
