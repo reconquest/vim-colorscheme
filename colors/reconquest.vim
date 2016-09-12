@@ -14,9 +14,9 @@ hi! SpecialKey     term=none cterm=none ctermfg=235 ctermbg=none
 hi! NonText        term=none cterm=none ctermfg=238 ctermbg=none
 hi! Directory      term=bold cterm=bold ctermfg=67 ctermbg=none
 hi! ErrorMsg       term=none cterm=none ctermfg=15 ctermbg=234
-hi! IncSearch      term=reverse cterm=none ctermfg=234 ctermbg=226
-hi! Search         term=reverse cterm=none ctermfg=234 ctermbg=24
-hi! MoreMsg        term=bold cterm=bold ctermfg=121 ctermbg=220
+hi! IncSearch      term=reverse cterm=bold ctermfg=16 ctermbg=226
+hi! Search         term=reverse cterm=none ctermfg=15 ctermbg=92
+hi! MoreMsg        term=bold cterm=bold ctermfg=0 ctermbg=220
 hi! ModeMsg        term=bold cterm=bold ctermfg=247 ctermbg=236
 hi! LineNr         term=none cterm=none ctermfg=249 ctermbg=none
 hi! CursorLineNr   term=bold cterm=bold ctermfg=250 ctermbg=none
