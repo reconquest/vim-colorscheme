@@ -1,7 +1,7 @@
 let g:colors_name = "reconquest"
 
 hi Special        cterm=none     ctermfg=24   ctermbg=none
-hi SpecialKey     cterm=none     ctermfg=238  ctermbg=none
+hi SpecialKey     cterm=none     ctermfg=237  ctermbg=none
 hi SpecialChar    cterm=none     ctermfg=15   ctermbg=none
 hi SpecialComment cterm=none     ctermfg=15   ctermbg=none
 hi NonText        cterm=none     ctermfg=238  ctermbg=none
