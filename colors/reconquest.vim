@@ -20,10 +20,10 @@ hi StatusLineNC   cterm=reverse  ctermfg=250  ctermbg=236
 hi VertSplit      cterm=reverse  ctermfg=234  ctermbg=239
 hi Title          cterm=bold     ctermfg=15   ctermbg=none
 hi Visual         cterm=none     ctermfg=none ctermbg=17
-hi WarningMsg     cterm=standout ctermfg=15   ctermbg=124
-hi WildMenu       cterm=standout ctermfg=234  ctermbg=228
-hi Folded         cterm=standout ctermfg=66   ctermbg=236
-hi FoldColumn     cterm=standout ctermfg=66   ctermbg=236
+hi WarningMsg     cterm=none     ctermfg=15   ctermbg=124
+hi WildMenu       cterm=bold     ctermfg=234  ctermbg=228
+hi Folded         cterm=none     ctermfg=66   ctermbg=236
+hi FoldColumn     cterm=none     ctermfg=66   ctermbg=236
 hi DiffAdd        cterm=bold     ctermfg=15   ctermbg=2
 hi DiffChange     cterm=none     ctermfg=none ctermbg=238
 hi DiffDelete     cterm=bold     ctermfg=95   ctermbg=95
@@ -51,7 +51,7 @@ hi PreProc        cterm=none     ctermfg=215  ctermbg=none
 hi Type           cterm=none     ctermfg=68   ctermbg=none
 hi Ignore         cterm=none     ctermfg=242  ctermbg=none
 hi Error          cterm=none     ctermfg=15   ctermbg=9
-hi Todo           cterm=standout ctermfg=66   ctermbg=none
+hi Todo           cterm=none     ctermfg=16   ctermbg=66
 hi String         cterm=none     ctermfg=242  ctermbg=235
 hi Character      cterm=none     ctermfg=150  ctermbg=none
 hi Number         cterm=none     ctermfg=150  ctermbg=none
