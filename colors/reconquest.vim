@@ -85,7 +85,7 @@ hi Normal         cterm=none     ctermfg=253  ctermbg=234
 hi goDeclaration cterm=bold ctermfg=215 ctermbg=none
 hi goConditional cterm=bold ctermfg=215 ctermbg=none
 hi goBuiltins    cterm=none ctermfg=215 ctermbg=none
-hi goCall        cterm=none ctermfg=101 ctermbg=none
+hi goCall        cterm=none ctermfg=117 ctermbg=none
 hi goErr         cterm=bold ctermfg=none ctermbg=none
 
 hi GitGutterAdd ctermfg=82
