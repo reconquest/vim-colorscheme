@@ -1,12 +1,12 @@
 let g:colors_name = "reconquest"
 
-hi Special        cterm=none     ctermfg=24   ctermbg=none
+hi Special        cterm=none     ctermfg=125   ctermbg=none
 hi SpecialKey     cterm=none     ctermfg=237  ctermbg=none
 hi SpecialChar    cterm=none     ctermfg=15   ctermbg=none
 hi SpecialComment cterm=none     ctermfg=15   ctermbg=none
 hi NonText        cterm=none     ctermfg=238  ctermbg=none
 hi Directory      cterm=bold     ctermfg=67   ctermbg=none
-hi ErrorMsg       cterm=none     ctermfg=15   ctermbg=234
+hi ErrorMsg       cterm=none     ctermfg=15   ctermbg=16
 hi IncSearch      cterm=bold     ctermfg=16   ctermbg=226
 hi Search         cterm=none     ctermfg=15   ctermbg=92
 hi MoreMsg        cterm=bold     ctermfg=0    ctermbg=220
@@ -17,11 +17,11 @@ hi CursorLine     cterm=none     ctermfg=none ctermbg=17
 hi Question       cterm=none     ctermfg=247  ctermbg=236
 hi StatusLine     cterm=bold     ctermfg=15   ctermbg=236
 hi StatusLineNC   cterm=reverse  ctermfg=250  ctermbg=236
-hi VertSplit      cterm=reverse  ctermfg=234  ctermbg=239
+hi VertSplit      cterm=reverse  ctermfg=16  ctermbg=239
 hi Title          cterm=bold     ctermfg=15   ctermbg=none
 hi Visual         cterm=none     ctermfg=none ctermbg=17
 hi WarningMsg     cterm=none     ctermfg=15   ctermbg=124
-hi WildMenu       cterm=bold     ctermfg=234  ctermbg=228
+hi WildMenu       cterm=bold     ctermfg=16  ctermbg=228
 hi Folded         cterm=none     ctermfg=66   ctermbg=236
 hi FoldColumn     cterm=none     ctermfg=66   ctermbg=236
 hi DiffAdd        cterm=bold     ctermfg=15   ctermbg=2
@@ -39,10 +39,10 @@ hi PmenuSel       cterm=bold     ctermfg=255  ctermbg=237
 hi PmenuSbar      cterm=none     ctermfg=252  ctermbg=237
 hi PmenuThumb     cterm=none     ctermfg=245  ctermbg=240
 hi TabLine        cterm=none     ctermfg=8    ctermbg=235
-hi TabLineSel     cterm=bold     ctermfg=252  ctermbg=234
+hi TabLineSel     cterm=bold     ctermfg=252  ctermbg=16
 hi TabLineFill    cterm=reverse  ctermfg=254  ctermbg=235
 hi ColorColumn    cterm=none     ctermfg=none ctermbg=235
-hi MatchParen     cterm=bold     ctermfg=234  ctermbg=220
+hi MatchParen     cterm=bold     ctermfg=16  ctermbg=220
 hi Comment        cterm=bold     ctermfg=242  ctermbg=none
 hi Constant       cterm=none     ctermfg=150  ctermbg=none
 hi Identifier     cterm=none     ctermfg=81   ctermbg=none
@@ -52,7 +52,7 @@ hi Type           cterm=none     ctermfg=68   ctermbg=none
 hi Ignore         cterm=none     ctermfg=242  ctermbg=none
 hi Error          cterm=none     ctermfg=15   ctermbg=9
 hi Todo           cterm=none     ctermfg=16   ctermbg=66
-hi String         cterm=none     ctermfg=242  ctermbg=235
+hi String         cterm=none     ctermfg=246  ctermbg=236
 hi Character      cterm=none     ctermfg=150  ctermbg=none
 hi Number         cterm=none     ctermfg=150  ctermbg=none
 hi Boolean        cterm=none     ctermfg=150  ctermbg=none
@@ -80,7 +80,7 @@ hi SPM3           cterm=none     ctermfg=none ctermbg=none
 hi SPM4           cterm=none     ctermfg=none ctermbg=none
 hi SPM5           cterm=none     ctermfg=none ctermbg=none
 hi SPM6           cterm=none     ctermfg=none ctermbg=none
-hi Normal         cterm=none     ctermfg=253  ctermbg=234
+hi Normal         cterm=none     ctermfg=253  ctermbg=16
 
 hi goDeclaration cterm=bold ctermfg=215 ctermbg=none
 hi goConditional cterm=bold ctermfg=215 ctermbg=none
